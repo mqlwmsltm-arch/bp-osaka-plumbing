@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/3) · osaka-plumbing</title>
+  <meta name="description" content="osaka-plumbing에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://blog.go-bangbae-room.xyz/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --neon-pink: #ff00ff;
+ --neon-blue: #00ffff;
+ --void-black: #050505;
+ --concrete-grey: #2a2a2a;
+ --text-white: #f0f0f0;
+ --grid-gap: 2px;
+ --font-main: 'Courier New', Courier, monospace;
+ --font-head: 'Impact', 'Arial Black', sans-serif;
+ }
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+
+ body {
+ background-color: var(--void-black);
+ color: var(--text-white);
+ font-family: var(--font-main);
+ line-height: 1.6;
+ overflow-x: hidden;
+ border: 1px solid var(--concrete-grey);
+ }
+
+ /* Layout Grid */
+ .wrapper {
+ display: grid;
+ grid-template-columns: 250px 1fr;
+ min-height: 100vh;
+ }
+
+ @media (max-width: 768px) {
+ .wrapper { grid-template-columns: 1fr; }
+ }
+
+ /* Navigation */
+ nav {
+ background: var(--concrete-grey);
+ border-right: 2px solid var(--text-white);
+ padding: 20px;
+ position: sticky;
+ top: 0;
+ height: 100vh;
+ }
+
+ nav ul {
+ list-style: none;
+ }
+
+ nav li {
+ margin-bottom: 15px;
+ border-bottom: 1px dashed var(--neon-pink);
+ padding-bottom: 5px;
+ }
+
+ nav a {
+ color: var(--text-white);
+ text-decoration: none;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ transition: color 0.3s;
+ }
+
+ nav a:hover {
+ color: var(--neon-blue);
+ text-shadow: 0 0 5px var(--neon-blue);
+ }
+
+ /* Main Content */
+ main {
+ padding: 40px;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+
+ h1, h2, h3 {
+ font-family: var(--font-head);
+ text-transform: uppercase;
+ letter-spacing: -1px;
+ margin-bottom: 20px;
+ }
+
+ h1 {
+ font-size: 3.5rem;
+ border-bottom: 5px solid var(--neon-pink);
+ display: inline-block;
+ margin-bottom: 40px;
+ text-shadow: 2px 2px 0px var(--neon-blue);
+ }
+
+ h2 {
+ font-size: 2rem;
+ border-left: 5px solid var(--neon-blue);
+ padding-left: 15px;
+ margin-top: 50px;
+ }
+
+ p {
+ margin-bottom: 20px;
+ font-size: 1.1rem;
+ }
+
+ /* Brutalist Cards */
+ .card-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 20px;
+ margin: 40px 0;
+ }
+
+ .card {
+ background: var(--concrete-grey);
+ border: 2px solid var(--text-white);
+ padding: 20px;
+ box-shadow: 10px 10px 0px var(--neon-pink);
+ transition: transform 0.2s;
+ }
+
+ .card:hover {
+ transform: translate(-5px, -5px);
+ box-shadow: 15px 15px 0px var(--neon-blue);
+ }
+
+ .card h3 {
+ color: var(--neon-blue);
+ font-size: 1.5rem;
+ }
+
+ /* Info List Style */
+ .info-list {
+ list-style: none;
+ border: 1px solid var(--text-white);
+ }
+
+ .info-list li {
+ padding: 15px;
+ border-bottom: 1px solid var(--text-white);
+ display: flex;
+ justify-content: space-between;
+ }
+
+ .info-list li:last-child {
+ border-bottom: none;
+ }
+
+ .highlight {
+ color: var(--neon-pink);
+ font-weight: bold;
+ }
+
+ /* FAQ Section */
+ .faq-item {
+ margin-bottom: 20px;
+ border: 1px dashed var(--neon-blue);
+ padding: 15px;
+ }
+
+ .faq-question {
+ font-weight: bold;
+ color: var(--neon-pink);
+ margin-bottom: 10px;
+ display: block;
+ }
+
+ footer {
+ margin-top: 60px;
+ padding-top: 20px;
+ border-top: 2px solid var(--text-white);
+ text-align: center;
+ font-size: 0.8rem;
+ color: #666;
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (1/3) · osaka-plumbing">
+  <meta property="og:description" content="osaka-plumbing에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://blog.go-bangbae-room.xyz/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <h1>상암 가라오케<br>추천 정보</h1>
+ <p style="font-size: 1.2rem; color: var(--neon-blue);">
+ // LOCATION: SANGAM-DONG / STATUS: OPEN LATE
+ </p>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 43개 · 1/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/checklist-003-1hwfr8a.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">상암 지역은 업무 지구와 주거 지역이 혼합되어 있어 출근길이나 퇴근 후에 쉽게 들를 수 있는 노래방 시설이 꾸준히 늘고 있습니다. 대형 프랜차이즈 노래방부터 소규모 독립 공간까지 다양한 옵션이 존재</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/compare-002-umua01.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">상암 지역에서 가라오케를 선택할 때, 단순히 '어디가 좋다더라' 하는 막연한 추천에 의존하는 것은 위험천만한 일입니다. 당신의 소중한 시간과 비용을 허투루 쓰고 싶지 않다면, 명확하고 실질적인 판단</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/field_note-002-16o1l3v.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">상암 지역에 위치한 가라오케는 다양한 규모와 분위기로 운영되고 있어, 방문 목적에 따라 적합한 장소를 선택하는 것이 중요합니다. 단체 모임이나 소규모 친구 모임 모두에서 활용할 수 있는 공간이 꾸준</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260704-035.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">상암에서 가라오케를 처음 찾는 분들이 가장 많이 묻는 질문은 &quot;어떤 기준으로 골라야 하는가&quot;입니다. 이 페이지는 특정 업소를 추천하기보다 상암 지역 가라오케 업종의 일반적인 이용 절차와 가격이 형성</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260704-036.html">상암 가라오케, 예약 전에 이것부터 확인하세요</a>
+        <p class="post-item__summary">가라오케는 업소별로 운영 방식과 요금 구성이 제각각이라, 상암 지역에서 처음 이용하는 경우라면 사전에 몇 가지 정보를 확인해두는 것이 좋습니다. 이 페이지는 특정 매장에 대한 평가가 아니라 상암 가</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260704-037.html">상암 가라오케 유형 비교로 보는 이용 가이드</a>
+        <p class="post-item__summary">상암 지역의 가라오케는 룸 구성과 이용 목적에 따라 형태가 조금씩 다릅니다. 이 페이지는 우열을 가리기 위한 순위가 아니라, 유형별 차이를 비교하여 방문 목적에 맞는 선택을 돕기 위한 정보성 자료입</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-110.html">gemini coverage 20260705 110</a>
+        <p class="post-item__summary">이 페이지는 상암 지역에서 가라오케를 이용하려는 분들을 위해 예약 절차와 문의 방법, 이용 시 참고할 정보를 정리했습니다. 특정 업소를 홍보하는 목적이 아니라 문의 전 확인해두면 좋은 사항을 안내하</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-1251.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">서울 상암동은 디지털미디어시티(DMC)를 중심으로 업무와 문화가 공존하는 지역이다. 늦은 시간까지 회의나 촬영 일정이 이어지는 경우가 많다 보니, 자연스럽게 근처에서 가볍게 목을 풀 수 있는 가라오</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-139.html">마포/합정 인디 소셜 라운지 가이드</a>
+        <p class="post-item__summary">상암 지역에서 가라오케를 이용하려는 경우, 예약 전에 확인해야 할 사항이 적지 않다. 이 페이지는 상암 가라오케를 처음 이용하거나 오랜만에 방문하는 사람을 위해 가격이 결정되는 구조와 지역 특성, </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-167.html">마포 유흥 투명 정찰제 가격 정보 디렉토리</a>
+        <p class="post-item__summary">상암 가라오케를 예약하기 전에 요금이 어떤 절차와 항목으로 구성되는지 미리 알아두면 당일 혼선을 줄일 수 있다. 아래 내용은 특정 업소를 홍보하거나 평가하는 글이 아니라, 상암 지역 가라오케를 이용</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260707-0738.html">상암 가라오케 추천정보: 노래와 공간이 공존하는 곳</a>
+        <p class="post-item__summary">상암 가라오케를 찾는 이들에게, 가성비와 무대가 적절히 조합된 곳을 소개합니다. 깔끔한 좌석 배치와 최신 음향 설비가 풍부한 공간이 특징이죠. 비대면 환경에서도 소음 차단이 잘 구현돼, 친구들과 노</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260707-0739.html">상암 가라오케 추천정보</a>
+        <p class="post-item__summary">서울 상암동은 디지털미디어시티(DMC)를 중심으로 상업 시설과 주거 지역이 조화를 이루는 곳이다. 직장인과 방문객이 꾸준히 유입되면서 상암 일대에는 다양한 유흥 업소가 자리 잡고 있다. 특히 회식이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260707-0740.html">상암 가라오케 추천정보: 도심 속 편안한 노래방</a>
+        <p class="post-item__summary">상암에 위치한 노래방은 도심 속에서도 편안한 휴식을 선사합니다. 세련된 인테리어와 최첨단 음향 시스템이 조화롭게 구성되어, 음악의 품격을 한층 끌어올립니다. 깨끗한 조명과 편안한 좌석 덕분에 장시간</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0272.html">상암 가라오케 추천정보 구글 봇 정밀 검진 및 크롤 버짓 밀착 간호</a>
+        <p class="post-item__summary">상암 가라오케 추천정보를 검색하는 사용자들에게 정확한 위치와 접근성 정보는 무엇보다 중요한 요소입니다. 하지만 관리되지 않는 웹사이트는 검색 엔진 봇의 외면을 받기 쉽습니다. 따라서 원활한 정보 노</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0273.html">상암 가라오케 추천정보 활용한 구글 틈새 키워드 트래픽 외환 거래 전략 분석</a>
+        <p class="post-item__summary">최근 디지털 마케팅 환경에서 특정 키워드를 검색하는 이용자의 유입 경로는 매우 세밀하게 분화되었습니다. 특히 상암 가라오케 추천정보와 같은 지역 기반 키워드는 타겟층이 명확하여 이를 활용한 부가 수</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0274.html">상암 가라오케 추천정보 기반의 해당 사이트</a>
+        <p class="post-item__summary">많은 블로거가 사이트의 지수를 높이기 위해 무작위로 링크를 삽입하는 실수를 범합니다. 상암 가라오케 추천정보를 검색하는 유저들에게 단순히 외부 링크를 노출하는 것만으로는 검색 엔진의 신뢰를 얻기 어</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0275.html">상암 가라오케 추천정보로 찾아본 합정 셔츠룸 단골들이 뽑은 핫플 매거진 정보</a>
+        <p class="post-item__summary">성공적인 저녁 모임을 위해서는 공간의 분위기, 청결도, 그리고 서비스의 일관성이 무엇보다 중요합니다. 상암 가라오케 추천정보를 찾는 분들이라면 인근 지역의 핫플레이스 또한 깊은 관심을 가지고 계실 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0276.html">상암 가라오케 추천정보 비교분석 마포 셔츠룸 예약 시 눈탱이 피하는 법</a>
+        <p class="post-item__summary">업체를 예약할 때 투명하지 않은 가격 책정으로 인해 당혹스러운 경험을 한 적이 있으신가요? 상암 가라오케 추천정보를 검색하는 과정에서도 정보의 불균형 때문에 어려움을 겪는 분들이 많습니다. 합리적인</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0277.html">상암 가라오케 추천정보 활용한 마포 코인노래방 방음 시설 비교 가이드</a>
+        <p class="post-item__summary">상암 가라오케 추천정보를 검색하며 시설의 질을 고민하는 이용객들이 늘고 있습니다. 단순히 화려한 외관보다는 실제 내부의 소음 차단 수준을 확인하는 것이 만족스러운 시간을 보내는 첫걸음입니다. 특히 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0278.html">상암 가라오케 추천정보 바탕의 구글 신뢰 지수 모발이식 솔루션</a>
+        <p class="post-item__summary">디지털 환경에서의 정보 가치는 갈수록 높아지고 있으며, 상암 가라오케 추천정보를 찾는 것과 같이 명확한 기준이 요구됩니다. 사용자들은 검색 엔진이 제공하는 결과 중에서 가장 신뢰할 수 있는 데이터를</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <a class="pager__link" href="posts-3.html">3</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
